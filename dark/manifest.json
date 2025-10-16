@@ -1,5 +1,6 @@
 {
   "name": "dark",
+  "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
@@ -11,11 +12,10 @@
   "permissions": [
     "activeTab",
     "tabs",
-    "https://chinese.littlefox.com/*"
   ],
+  "host_permissions": ["http://*/*", "https://*/*"],
   "action": {
     "default_title": "Dark"
   },
-  "manifest_version": 3,
   "version": "1.0"
 }
