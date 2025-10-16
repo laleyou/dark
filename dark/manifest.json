@@ -12,8 +12,8 @@
   "permissions": [
     "activeTab",
     "tabs",
+    "https://chinese.littlefox.com/*"
   ],
-  "manifest_version": 2,
   "browser_action": {
     "default_title": "Dark"
   },
