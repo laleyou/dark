@@ -1,3 +1,1 @@
-chrome.scripting.onUpdated.addListener() {
-    for (var i=0; i<document.getElementsByTagName("*").length; i++) document.getElementsByTagName("*")[i] = document.getElementsByTagName("*")[i].setAttribute("style","background-color:black; color:red");
-}
+for (var i=0; i<document.getElementsByTagName("*").length; i++) document.getElementsByTagName("*")[i] = document.getElementsByTagName("*")[i].setAttribute("style","background-color:black; color:red");
