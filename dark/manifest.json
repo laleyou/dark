@@ -10,7 +10,7 @@
     "activeTab",
     "tabs"
   ],
-  "content.scripts": [
+  "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
       "js": ["Content.js"]
